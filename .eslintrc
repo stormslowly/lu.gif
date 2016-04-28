@@ -1,0 +1,26 @@
+{
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [0,4],
+        "quotes": [0,"single"],
+        "linebreak-style": [2,"unix"],
+        "no-extra-semi": [0],
+        "no-console": [0],
+        "strict": [0, "global"],
+        "eqeqeq":[0],
+        "no-unused-vars":[2],
+        "semi": [0]
+    },
+    "env": {
+        "node": true,
+        "mocha": true,
+        "es6": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+    }
+}

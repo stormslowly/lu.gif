@@ -1,0 +1,24 @@
+{
+  "name": "gif_dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bloom-redis": "0.0.1",
+    "bluebird": "^3.3.5",
+    "cheerio": "^0.20.0",
+    "co": "^4.6.0",
+    "redis": "^2.6.0-1",
+    "superagent": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.8.0"
+  }
+}
