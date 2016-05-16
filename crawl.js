@@ -75,7 +75,7 @@ co(function*() {
       gif = yield crawler.has(task.id)
       if (gif) {
         console.log('conflict id', meta.id)
-        continue
+        throw Error('ID_CONFLICT')
       }
       gif = {extId: task.id, img: task.img, title: task.title, site:'lovefou'}
       yield  download(task)
