@@ -7,6 +7,7 @@
 
 **效果图**
 
+![效果图](https://raw.githubusercontent.com/stormslowly/lu.gif/master/gifs.png)
 
 
 ## 准备工作
